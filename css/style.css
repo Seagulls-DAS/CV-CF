@@ -13,42 +13,50 @@ header {
 /* nav bar from here */
 @keyframes slidingnav {
     from {
-        transform: translate(1000px);
+        transform: translate(-500px);
     }
 
     to {
-        transform: translate(0px);
+        transform: translate(-330px);
         animation-timing-function: ease-in-out
     }
 }
 
 nav {
-    width: 50px;
-    height: 50px;
-    background-color: rgba(0, 0, 0, 0.199);
+    width: 40px;
+    height: 40px;
+    background-color: grey;
     position: absolute;
-    right: 0px;
-    top: 0px;
+    right: 10px;
+    top: 10px;
     color: rgb(255, 255, 255);
+    border-radius: 30px;
+    z-index: 1;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.336);
 }
 
 
-.test {
+
+nav>.test {
+    margin-top: 150px;
     text-align: center;
-    display: flex;
     justify-content: space-around;
     align-items: center;
     color: rgb(255, 255, 255);
+    display: none;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.199);
+    background-color: grey;
     width: 200px;
     height: 300px;
     position: absolute;
     top: 0;
+    z-index: 1;
     animation: slidingnav;
     animation-duration: 1s;
     animation-fill-mode: forwards;
     font-size: x-large;
+    border-radius: 30px;
+    box-shadow: 15px 10px 10px rgba(0, 0, 0, 0.11);
 }
 
 nav>.test>img {
@@ -81,7 +89,7 @@ label {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(255, 255, 255);
     cursor: pointer;
 }
@@ -149,6 +157,7 @@ label {
     justify-content: center;
     border-radius: 30px;
     animation: suspension 6s linear 0s infinite;
+    z-index: 0;
 }
 
 #MyName {
@@ -179,11 +188,14 @@ label {
     0% {
         transform: rotate(0);
         opacity: 0;
+        width: 0%;
+
     }
 
     100% {
         transform: rotate(360deg);
         opacity: 1;
+        width:100%;
     }
 }
 
@@ -220,7 +232,7 @@ hr {
 }
 
 #contact>div>p {
-    margin: 10px;
+    margin-bottom: 10px;
 }
 
 #contact>div>p>a {
@@ -232,14 +244,25 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: -10px;
+    margin-left: 5px;
 }
 
 .contacticons {
-    margin: 6px;
+    margin: 4px;
     max-width: 15px;
     opacity: 50%;
 }
 
-#icons>:nth-child(4) {
+#icons>:nth-child(1) {
     width: 10px;
 }
+
+#formation {
+    display: none;
+    margin-top: 20px;
+    color: grey;
+    font-size: x-small;
+    flex-direction: row;
+}
+
