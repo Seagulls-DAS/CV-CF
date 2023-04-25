@@ -227,6 +227,7 @@ h2 {
     margin-top: 15px;
     text-align: center;
     font-size: small;
+    color: grey;
 }
 
 hr {
@@ -308,6 +309,39 @@ hr {
 }
 
 #XP {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: grey;
+    font-size: x-small;
+}
+
+#Competences {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: grey;
+    font-size: x-small;
+}
+
+.skillzblock {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.skillzblock>img {
+    margin: 10px;
+    width: 30px;
+    box-shadow: 2px 2px 2px rgb(255, 255, 255), -2px -2px 2px rgb(255, 255, 255);
+}
+
+#freetime {
     display: none;
     flex-direction: column;
     justify-content: center;
