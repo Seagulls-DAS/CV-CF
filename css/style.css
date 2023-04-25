@@ -595,3 +595,16 @@ carousel-con
 .dark-mode-bg>.container-1>#contact>#icons>.contacticons {
     filter: invert(100%);
 }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: small;
+}
+
+#logoDII {
+    width: 20%;
+}
