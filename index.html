@@ -24,7 +24,7 @@
                 <hr class="slash">
                 <label for="toggle" id="diplomes">Formation</label>
                 <hr class="slash">
-                <a href="XP.html">Expérience Professionnelle</a>
+                <label for="toggle" id="Exp">Expérience Professionnelle</label>
                 <hr class="slash">
                 <a href="Skills.html">Compétences</a>
                 <hr class="slash">
@@ -46,7 +46,7 @@
                     <p><a href="mailto:dasyhef@hotmail.fr">dasyhef@hotmail.fr</a></p>
                     <p><a href="https://api.whatsapp.com/send?phone=33768304376" target="_blank">07 68 30 43 76</a></p>
                     <p><a href="https://www.linkedin.com/in/c%C3%A9dric-fran%C3%A7ois-8a2089272/">Linkedin</a></p>
-                    <p><a href="https://github.com/DASyhef">GitHub</a></p>                    
+                    <p><a href="https://github.com/DASyhef">GitHub</a></p>
                 </div>
                 <div id="icons">
                     <img src="img/old.png" alt="icon" class="contacticons">
@@ -60,51 +60,90 @@
             <div id="formation">
                 <h2>Formation</h2>
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                            aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
-                    </div>
                     <div class="carousel-inner">
-                        <div class="carousel-item active" id="simplon">
-                            <div>Formation Developpeur Web</div>
-                            <div>Simplon 04/2023-01/2024</div>
+                        <div class="carousel-item active simplon">
+                            <div class="diplome">Formation Developpeur Web</div>
+                            <div class="où">Simplon 04/2023-01/2024</div>
                         </div>
-                        <div class="carousel-item" id="simplon">
-                            <div>Formation Developpeur Intégrateur d' Applications</div>
-                            <div>Simplon 03/2023-04/2023</div>
-                            
+                        <div class="carousel-item simplon">
+                            <div class="diplome">Formation Developpeur Intégrateur d' Applications</div>
+                            <div class="où">Simplon 03/2023-04/2023</div>
+
                         </div>
-                        <div class="carousel-item">
-                            Formation CSE - CFDT - 11/2021
-                            <img class="d-block w-100" src="img/3.jpg" alt="Third slide">
+                        <div class="carousel-item" id="CFDT">
+                            <div class="diplome">Formation CSE</div>
+                            <div class="où">CFDT 11/2021</div>
                         </div>
-                        <div class="carousel-item">
-                            Gestion du Stress - Armatis - 02/2012
-                            <img class="d-block w-100" src="img/4.jpg" alt="Third slide">
+                        <div class="carousel-item armatis">
+                            <div class="diplome">Gestion du Stress</div>
+                            <div class="où">Armatis 02/2012</div>
                         </div>
-                        <div class="carousel-item">
-                            Formation Techniques de Vente- Armatis - 11/2021
-                            <img class="d-block w-100" src="img/5.jpg" alt="Third slide">
+                        <div class="carousel-item armatis">
+                            <div class="diplome">Formation Techniques de Vente </div>
+                            <div class="où">Armatis 02/2021</div>
+                        </div>
+                        <div class="carousel-item" id="Branly">
+                            <div class="diplome">Bac STI Génie Électonique</div>
+                            <div class="où">Lycée É.Branly 06/1999</div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-        
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Prev</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <div></div>
+            <div id="XP">
+                <h2>Expérience Professionnelle</h2>
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active Armatis">
+                            <div class="diplome">Conseiller Clientèle</div>
+                            <div class="où"><p>Armatis Boulogne sur Mer</p>
+                            <p>02/2011-03/2022</p></div>
+                        </div>
+                        <div class="carousel-item active Talk">
+                            <div class="diplome">Conseiller Clientèle</div>
+                            <div class="où"><p>Talk Desvres</p>
+                            <p>09/2008-10/2009</p></div>
+                        </div>
+
+                        </div>
+                        <div class="carousel-item" id="CFDT">
+                            <div class="diplome">Formation CSE</div>
+                            <div class="où">CFDT 11/2021</div>
+                        </div>
+                        <div class="carousel-item armatis">
+                            <div class="diplome">Gestion du Stress</div>
+                            <div class="où">Armatis 02/2012</div>
+                        </div>
+                        <div class="carousel-item armatis">
+                            <div class="diplome">Formation Techniques de Vente </div>
+                            <div class="où">Armatis 02/2021</div>
+                        </div>
+                        <div class="carousel-item" id="Branly">
+                            <div class="diplome">Bac STI Génie Électonique</div>
+                            <div class="où">Lycée É.Branly 06/1999</div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Prev</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </div>
     </header>
     <section-1>

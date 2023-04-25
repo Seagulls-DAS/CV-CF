@@ -195,7 +195,7 @@ label {
     100% {
         transform: rotate(360deg);
         opacity: 1;
-        width:100%;
+        width: 100%;
     }
 }
 
@@ -269,12 +269,39 @@ hr {
     font-size: x-small;
 }
 
-#simplon {
+.simplon {
     background-image: url("../img/logo-simplon.png");
     background-size: cover;
     height: 150px;
 }
 
+.armatis {
+    background-image: url("../img/armatis.png");
+    background-size:cover;
+    height: 150px;
+}
+
+#CFDT {
+    background-image: url("../img/cfdt_logo.png");
+    background-size: cover;
+    height: 150px;
+}
+
+#Branly {
+    background-image: url("../img/Branly.png");
+    background-size: contain;
+    height: 150px;
+}
+
+#XP {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: grey;
+    font-size: x-small;
+}
 
 .d-block {
     display: block !important
@@ -287,6 +314,14 @@ hr {
 
 #carouselExampleIndicators {
     height: 200px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#carouselExampleIndicators button {
+    margin-top: 150px;
+    width: 100px;
 }
 
 .carousel {
@@ -383,10 +418,8 @@ hr {
 
 .carousel-control-next,
 .carousel-control-prev {
-    margin-top: 85px;
     position: absolute;
-    top: 0;
-    bottom: 0;
+    bottom: 50px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -396,13 +429,12 @@ hr {
     align-items: center;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center;
-    vertical-align: middle;
     width: 15%;
-    height: 25%;
+    height: 50px;
     color: #000000;
     text-align: center;
-    opacity: 100%;
+    font-size: x-small;
+    opacity: 50%;
     background-color: #ffffff2c;
     border: none;
 }
@@ -414,15 +446,15 @@ hr {
     color: #000000;
     text-decoration: none;
     outline: 0;
-    opacity: .9
+    opacity: 50%
 }
 
 .carousel-control-prev {
-    left: 0
+    left: 0 !important
 }
 
 .carousel-control-next {
-    right: 0
+    right: 0 !important
 }
 
 .carousel-control-next-icon,
@@ -435,20 +467,21 @@ hr {
 }
 
 .carousel-control-prev-icon {
+    left: 0;
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%33333' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
 
 .carousel-control-next-icon {
+    right: 0;
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%33333' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")
 }
 
 .carousel-indicators {
+    width: 200px;
     position: absolute;
     right: 0;
     left: 0;
     z-index: 15;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -477,15 +510,7 @@ hr {
     background-color: rgba(255, 255, 255, .5)
 }
 
-.carousel-indicators li::before {
-    position: absolute;
-    top: -10px;
-    left: 0;
-    display: inline-block;
-    width: 100%;
-    height: 10px;
-    content: ""
-}
+
 
 .carousel-indicators li::after {
     position: absolute;
@@ -498,7 +523,7 @@ hr {
 }
 
 .carousel-indicators .active {
-    background-color: #fff
+    background-color: #000000
 }
 
 .carousel-caption {
@@ -511,4 +536,26 @@ hr {
     padding-bottom: 20px;
     color: #fff;
     text-align: center
+}
+
+.diplome {
+    width: 50%;
+    height: 50%;
+    margin: 20px;
+    background-color: #ffffff50;
+    border: solid, #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.où {
+    margin: 20px;
+    height: 50%;
+    width: 50%;
+    background-color: #ffffff50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
