@@ -15,22 +15,23 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <nav>
-            <label for="toggle">☰</label>
+            <label for="toggle" id="navbartoggle">☰</label>
             <input type="checkbox" id="toggle">
             <div class="test">
-                <label for="toggle" id="index">Accueil</label>
+                <label for="toggle" id="index" class="check"><b>Accueil</b></label>
                 <hr class="slash">
-                <label for="toggle" id="diplomes">Formation</label>
+                <label for="toggle" id="diplomes" class="check"><b>Formation</b></label>
                 <hr class="slash">
-                <label for="toggle" id="Exp">Expérience Professionnelle</label>
+                <label for="toggle" id="Exp" class="check"><b>Expérience Professionnelle</b></label>
                 <hr class="slash">
                 <a href="Skills.html">Compétences</a>
                 <hr class="slash">
                 <a href="Passions.html">Passions</a>
             </div>
         </nav>
+        <img src="img/DM.png" onclick="DM()" title="Dark Mode" type="button" class="clickonit" id="dmbutton">
         <div class="container-1">
             <div id="MyName">
                 <h1>Cédric FRANÇOIS</h1><br>
@@ -103,33 +104,33 @@
                 <h2>Expérience Professionnelle</h2>
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
-                        <div class="carousel-item active Armatis">
+                        <div class="carousel-item active makma">
+                            <div class="diplome">Lettreur de Webzines</div>
+                            <div class="où">
+                                <p>Makma<br>Télétavail</p>
+                                <p>02/2011-03/2022</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item Armatis">
                             <div class="diplome">Conseiller Clientèle</div>
-                            <div class="où"><p>Armatis Boulogne sur Mer</p>
-                            <p>02/2011-03/2022</p></div>
+                            <div class="où">
+                                <p>Armatis<br>Boulogne sur Mer</p>
+                                <p>02/2011-03/2022</p>
+                            </div>
                         </div>
-                        <div class="carousel-item active Talk">
+                        <div class="carousel-item Talk">
                             <div class="diplome">Conseiller Clientèle</div>
-                            <div class="où"><p>Talk Desvres</p>
-                            <p>09/2008-10/2009</p></div>
+                            <div class="où">
+                                <p>Talk<br>Desvres</p>
+                                <p>09/2008-10/2009</p>
+                            </div>
                         </div>
-
-                        </div>
-                        <div class="carousel-item" id="CFDT">
-                            <div class="diplome">Formation CSE</div>
-                            <div class="où">CFDT 11/2021</div>
-                        </div>
-                        <div class="carousel-item armatis">
-                            <div class="diplome">Gestion du Stress</div>
-                            <div class="où">Armatis 02/2012</div>
-                        </div>
-                        <div class="carousel-item armatis">
-                            <div class="diplome">Formation Techniques de Vente </div>
-                            <div class="où">Armatis 02/2021</div>
-                        </div>
-                        <div class="carousel-item" id="Branly">
-                            <div class="diplome">Bac STI Génie Électonique</div>
-                            <div class="où">Lycée É.Branly 06/1999</div>
+                        <div class="carousel-item LPClerc">
+                            <div class="diplome">Aide-Éducateur</div>
+                            <div class="où">
+                                <p>Lycée Prof. Clerc<br>Outreau</p>
+                                <p>03/2001-03-2006</p>
+                            </div>
                         </div>
                     </div>
                 </div>
