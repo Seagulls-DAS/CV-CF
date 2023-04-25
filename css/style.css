@@ -241,7 +241,7 @@ hr {
 #contact {
     margin-top: 20px;
     color: grey;
-    font-size: x-small;
+    font-size: 3vw;
     display: flex;
     flex-direction: row;
 }
@@ -578,7 +578,7 @@ carousel-con
 }
 
 .dark-mode-bg {
-    transition: 0.5ms;
+    transition: 1s;
     background-image: linear-gradient(rgba(0, 0, 0, 0.548), rgba(0, 0, 0, 0.548)), url("../img/blood.png"), url("../img/metal.jpg");
 }
 
@@ -589,7 +589,15 @@ carousel-con
 
 .dark-mode-bg>.container-1 {
     background-image: radial-gradient(rgb(59, 6, 6), rgba(0, 6, 7, 0.438));
-    
+}
+
+.dark-mode-bg>.container-1>#MyMug {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.137), rgba(0, 0, 0, 0.137)), url("../img/medark.png");
+    background-size: cover;
+}
+
+.dark-mode-bg>.container-1>#MyMug:hover {
+    background-image: url("../img/23926567_1755436874469509_8534264881538347123_o.png");
 }
 
 .dark-mode-bg>.container-1>#contact>#icons>.contacticons {
