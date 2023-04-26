@@ -79,6 +79,7 @@ nav>.test>a {
 }
 
 .check:hover {
+    font-style: bold;
     color: rgb(255, 255, 255) !important;
 }
 
@@ -393,6 +394,10 @@ hr {
     color: grey;
     font-size: x-small;
 }
+#freetime>div {
+    display: flex;
+    flex-direction: row;
+}
 
 .d-block {
     display: block !important
@@ -675,6 +680,18 @@ carousel-con .carousel-indicators li {
 .skillzicon:hover {
     transform: scale(4);
     transition: 0.5s;
+}
+
+.passionsicon {
+    width: 50px;
+    filter: opacity(50%);
+    margin: 10px;
+}
+
+#wotido {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .diplome {
