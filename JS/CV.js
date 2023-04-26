@@ -23,7 +23,6 @@ contact.addEventListener("click", () => {
 function togg1() {
   if (getComputedStyle(d2).display != "none") {
     d2.style.display = "none";
-    togg1.style.transform = 'translateY(${d2.clientY - 300}px)';
   } else {
     d2.style.display = "flex";
     d1.style.display = "none";

@@ -334,25 +334,33 @@ hr {
 
 .simplon {
     background-image: url("../img/logo-simplon.png");
-    background-size: cover;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
     height: 150px;
 }
 
 .armatis {
     background-image: url("../img/armatis.png");
-    background-size: cover;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
     height: 150px;
 }
 
 #CFDT {
     background-image: url("../img/cfdt_logo.png");
-    background-size: cover;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
     height: 150px;
 }
 
 #Branly {
     background-image: url("../img/Branly.png");
-    background-size: contain;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
     height: 150px;
 }
 
@@ -435,6 +443,7 @@ hr {
     justify-content: center;
     align-items: center;
     height: 200px;
+    width: 280px;
 }
 
 .carousel-item {
@@ -653,31 +662,48 @@ carousel-con .carousel-indicators li {
     box-shadow: 2px 2px 2px rgb(255, 255, 255), -2px -2px 2px rgb(255, 255, 255);
 }
 
+.skillzelse {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80% !important;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
 .skillzicon:hover {
     transform: scale(4);
     transition: 0.5s;
 }
 
 .diplome {
-    width: 50%;
-    height: 50%;
+    width: 100px;
+    height: 80px;
     margin: 20px;
     background-color: #ffffff50;
     border: solid, #fff;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     border-radius: 10px;
+}
+
+.diplome>p {
+    margin: 5px;
 }
 
 .où {
     margin: 20px;
-    height: 50%;
-    width: 50%;
+    height: 80px;
+    width: 100px;
     background-color: #ffffff50;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     flex-direction: column;
     border-radius: 10px;
 }
