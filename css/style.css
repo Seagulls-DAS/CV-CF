@@ -271,6 +271,13 @@ h2 {
     color: grey;
 }
 
+h3 {
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: x-small;
+    color: grey;
+}
+
 hr {
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3), 1px 1px 1px rgb(255, 255, 255);
 }
@@ -369,20 +376,6 @@ hr {
     font-size: x-small;
 }
 
-.skillzblock {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 80%;
-    height: 80%
-}
-
-.skillzblock>img {
-    margin: 10px;
-    width: 25px;
-    box-shadow: 2px 2px 2px rgb(255, 255, 255), -2px -2px 2px rgb(255, 255, 255);
-}
-
 #freetime {
     display: none;
     flex-direction: column;
@@ -410,6 +403,13 @@ hr {
 }
 
 #carouselExampleIndicators2 {
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#carouselExampleIndicators3 {
     height: 200px;
     width: 100%;
     align-items: center;
@@ -636,6 +636,28 @@ carousel-con .carousel-indicators li {
     text-align: center
 }
 
+.skillzblock {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80% !important;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillzblock>img {
+    transition: 0.5s;
+    margin: 15px;
+    width: 25px;
+    box-shadow: 2px 2px 2px rgb(255, 255, 255), -2px -2px 2px rgb(255, 255, 255);
+}
+
+.skillzicon:hover {
+    transform: scale(4);
+    transition: 0.5s;
+}
+
 .diplome {
     width: 50%;
     height: 50%;
@@ -660,8 +682,8 @@ carousel-con .carousel-indicators li {
     border-radius: 10px;
 }
 
-.dark-mode-bg {
-    transition: 1s;
+.dark-mode-bg {    
+    transition: transform 1s;
     background-image: linear-gradient(rgba(0, 0, 0, 0.548), rgba(0, 0, 0, 0.548)), url("../img/blood.png"), url("../img/metal.jpg");
 }
 
