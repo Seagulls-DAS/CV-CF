@@ -366,6 +366,30 @@ hr {
     height: 150px;
 }
 
+.makma {
+    background-image: url("../img/Makma.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 150px;
+}
+
+.Talk {
+    background-image: url("../img/Talk.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 150px;
+}
+
+.LPClerc {
+    background-image: url("../img/LPClerc.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 150px;
+}
+
 #XP {
     display: none;
     flex-direction: column;
@@ -783,6 +807,10 @@ carousel-con .carousel-indicators li {
 
 .dark-mode-bg>.container-1>#freetime>#wotido>:nth-child(6) {
     filter: invert(50%);
+}
+
+.dark-mode-bg>..>body>footer>p {
+    color: white;
 }
 
 footer {
