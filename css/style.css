@@ -272,14 +272,14 @@ h1 {
 h2 {
     margin-top: 15px;
     text-align: center;
-    font-size: small;
+    font-size: 3vw;
     color: grey;
 }
 
-h3 {
-    margin-right: 20px;
-    margin-left: 20px;
-    font-size: x-small;
+h3{
+    margin-left: 100px;
+    margin-right: 100px ;
+    font-size: 2.5vw;
     color: grey;
 }
 
@@ -438,7 +438,7 @@ hr {
 }
 
 #carouselExampleIndicators {
-    height: 200px;
+    height: 150px;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -459,7 +459,7 @@ hr {
 }
 
 #carouselExampleIndicators button {
-    margin-top: 150px;
+    margin-top: 50px;
     width: 100px;
 }
 
@@ -487,6 +487,7 @@ hr {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    justify-content: center;
     width: 80%;
     transition: -webkit-transform .6s ease;
     transition: transform .6s ease;
@@ -679,7 +680,16 @@ carousel-con .carousel-indicators li {
     text-align: center
 }
 
+.skillz1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .skillzblock {
+    margin: 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -700,9 +710,8 @@ carousel-con .carousel-indicators li {
 .skillzelse {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    width: 80% !important;
-    height: 80%;
+    width: 200px;
+    height: 80px;
     justify-content: center;
     align-items: center;
 }
@@ -734,7 +743,8 @@ carousel-con .carousel-indicators li {
     align-items: center;
 }
 
-.diplome {
+.diplome,
+.où {
     width: 100px;
     height: 80px;
     margin: 20px;
@@ -746,23 +756,11 @@ carousel-con .carousel-indicators li {
     align-items: center;
     text-align: center;
     border-radius: 10px;
+    font-size: 2vw;
 }
 
 .diplome>p {
     margin: 0px;
-}
-
-.où {
-    margin: 20px;
-    height: 80px;
-    width: 100px;
-    background-color: #ffffff50;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    border-radius: 10px;
 }
 
 .dark-mode-bg {
@@ -937,7 +935,7 @@ label.button:hover {
         }
     }
 
-    #MyName>h2 {
+    h2 {
         font-size: 3vw;
         margin-top: 40px;
     }
@@ -977,6 +975,41 @@ label.button:hover {
         position: absolute;
         margin-left: 70px;
         margin-top: 294px;
+    }
+
+    #formation {
+        width: 400px;
+        height: 400px;
+    }
+
+    .carousel-inner {
+        width: 400px;
+        height: 400px;
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        width: 100px;
+        height: 100px;
+        bottom: 40px;
+    }
+
+    .skillzblock {
+        margin-top: 20px;
+        width: 350px;
+        height: 80%;
+    }
+
+    .skillzelse {
+        width: 350px;
+    }
+
+    .skillzblock>img {
+        width: 40px;
+    }
+
+    #carouselExampleIndicators3 {
+        width: 600px;
     }
 
     footer>p {
