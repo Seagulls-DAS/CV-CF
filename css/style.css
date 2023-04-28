@@ -5,6 +5,8 @@
 
 body {
     overflow: hidden;
+    background-size: cover;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.541), rgba(255, 255, 255, 0.541)), url("../img/nuages.jpg");
 }
 
 header {
@@ -169,7 +171,7 @@ nav>.test>a {
 }
 
 .container-1 {
-    width: 75%;
+    width: 85%;
     height: auto;
     background-image: radial-gradient(rgb(218, 243, 255), rgba(204, 252, 255, 0.438));
     display: flex;
@@ -188,6 +190,7 @@ nav>.test>a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
     width: 100%;
 }
 
@@ -203,6 +206,8 @@ nav>.test>a {
     border-width: 2px;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 @keyframes mymugtransition {
@@ -218,10 +223,20 @@ nav>.test>a {
     }
 }
 
+#Who {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 #MyMug-txt {
     width: auto;
     flex-direction: row;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #MyMug:hover {
@@ -233,13 +248,13 @@ nav>.test>a {
 .bubble {
     transform: rotate(90deg);
     position: absolute;
-    right: -45px;
+    right: -20px;
     box-shadow: 15px -10px 10px rgba(0, 0, 0, 0.11);
 }
 
 .bubble-text {
     background: rgba(128, 128, 128, 0.397);
-    color: #fff;
+    color: #ffffff;
     padding: 7px 15px;
     border-radius: 3px;
     width: 90px;
@@ -252,6 +267,7 @@ nav>.test>a {
 .bubble-text>p {
     width: 80px;
     transform: rotate(-90deg);
+    color: #000000;
 }
 
 .bubble-text::after {
@@ -271,14 +287,15 @@ h1 {
 
 h2 {
     margin-top: 15px;
+    margin-bottom: 0;
     text-align: center;
     font-size: 3vw;
     color: grey;
 }
 
-h3{
+h3 {
     margin-left: 100px;
-    margin-right: 100px ;
+    margin-right: 100px;
     font-size: 2.5vw;
     color: grey;
 }
@@ -290,6 +307,10 @@ hr {
 .slash {
     width: 65%;
     color: rgba(128, 128, 128, 0.459);
+}
+
+#slashMug {
+    width: 65%;
 }
 
 #contact {
@@ -319,6 +340,7 @@ hr {
 
 #icons>i {
     margin: 6px;
+    font-size: 3vw;
 }
 
 .contacticons {
@@ -777,13 +799,17 @@ carousel-con .carousel-indicators li {
     background-image: radial-gradient(rgb(59, 6, 6), rgba(0, 6, 7, 0.438));
 }
 
-.dark-mode-bg>.container-1>#MyMug-txt>#MyMug {
+.dark-mode-bg>.container-1>#Who>#MyMug-txt>#MyMug {
     background-image: linear-gradient(rgba(0, 0, 0, 0.137), rgba(0, 0, 0, 0.137)), url("../img/medark.png");
     background-size: cover;
 }
 
-.dark-mode-bg>.container-1>#MyMug-txt>#MyMug:hover {
+.dark-mode-bg>.container-1>#Who>#MyMug-txt>#MyMug:hover {
     background-image: url("../img/23926567_1755436874469509_8534264881538347123_o.png");
+}
+
+.dark-mode-bg>.container-1>#Who>#MyMug-txt>.bubble>.bubble-text>p {
+    color: white;
 }
 
 .dark-mode-bg>.container-1>#contact>#icons>i {
@@ -821,10 +847,12 @@ footer {
 
 footer>p {
     margin-bottom: -20px;
+    text-shadow: grey 2px 2px;
 }
 
 #logoDII {
     width: 15%;
+    margin-bottom: 0;
 }
 
 .modal {
@@ -861,6 +889,11 @@ form {
     box-shadow: 0 2px 5px #f5f5f5;
     background: rgb(204, 204, 204);
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
 }
 
 input,
@@ -948,15 +981,10 @@ label.button:hover {
     .bubble {
         bottom: 45%;
         right: -45px;
-        box-shadow: 15px -10px 10px rgba(0, 0, 0, 0.11);
     }
 
     .bubble-text {
-        background: rgba(128, 128, 128, 0.397);
-        color: #fff;
         padding: 7px 15px;
-        border-radius: 3px;
-        width: 90px;
         font-size: 2.5vw;
         width: 200px;
         height: 250px;
@@ -968,10 +996,6 @@ label.button:hover {
     }
 
     .bubble-text::after {
-        content: "";
-        border-left: 10px solid transparent;
-        border-right: 10px solid transparent;
-        border-top: 30px solid rgba(128, 128, 128, 0.397);
         position: absolute;
         margin-left: 70px;
         margin-top: 294px;
@@ -997,15 +1021,15 @@ label.button:hover {
     .skillzblock {
         margin-top: 20px;
         width: 350px;
-        height: 80%;
+        height: 150px;
     }
 
     .skillzelse {
         width: 350px;
     }
 
-    .skillzblock>img {
-        width: 40px;
+    .skillzicon {
+        width: 20px;
     }
 
     #carouselExampleIndicators3 {
@@ -1015,6 +1039,164 @@ label.button:hover {
     footer>p {
         font-size: 3vw;
         margin-bottom: -50px;
+    }
+
+}
+
+@media (min-width:1280px) {
+
+    .container-1 {
+        flex-direction: row;
+    }
+
+    @keyframes slidingnav {
+        from {
+            transform: translate(-2000px);
+        }
+
+        to {
+            transform: translate(-1230px);
+            animation-timing-function: ease-in-out
+        }
+    }
+
+    #MyMug {
+        width: 200px;
+        height: 200px
+    }
+
+    h1 {
+        font-size: 2.5vw;
+    }
+
+    h2 {
+        font-size: 2vw;
+    }
+
+    .slash {
+        height: 300px;
+        width: 1px;
+    }
+
+    #slashMug {
+        width: 65% !important;
+        height: 1px !important;
+    }
+
+    #contact>div>p {
+        font-size: 2vw;
+    }
+
+
+    .bubble {
+        bottom: 5%;
+        right: 33%;
+        transform: none;
+    }
+
+    .bubble-text {
+        padding: 7px 15px;
+        font-size: 2.5vw;
+        width: 400px;
+        height: 100px;
+    }
+
+    .bubble-text>p {
+        width: 400px;
+        height: 100px;
+        transform: none;
+        font-size: 1.5vw;
+    }
+
+    .bubble-text::after {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        vertical-align: middle;
+        position: absolute;
+        margin-left: -460px;
+        margin-top: -80px;
+        transform: rotate(90deg)
+    }
+
+    #icons>i {
+        font-size: 2.2vw;
+        margin: 6px;
+    }
+
+    .carousel-item {
+        flex-direction: column;
+    }
+
+    .carousel-control-prev {
+        left: 50% !important
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        bottom: 30%;
+    }
+
+    h2 {
+        margin-top: 0;
+        margin-bottom: 100px;
+    }
+
+    h3 {
+        font-size: 1.5vw;
+    }
+
+    .diplome,
+    .où {
+        width: 200px;
+        height: 200px;
+        font-size: 1.5vw;
+    }
+
+    .skillzblock {
+        width: 400px;
+        height: 300px;
+    }
+
+    .skillzicon {
+        width: 50px !important;
+    }
+
+    #carouselExampleIndicators3>.carousel-inner {
+        margin-left: 100px;
+        width: 300px;
+        height: 400px;
+    }
+
+    #carouselExampleIndicators3 {
+        height: 400px;
+    }
+
+    .carousel-item {
+        height: 400px;
+        width: 400px;
+    }
+
+    .passionsimg {
+        width: 60%;
+    }
+
+    #modalFour>.modal-content>.contact-form>form>img {
+        width: 40% !important;
+    }
+
+    footer {
+        height: 100px;
+    }
+
+    footer>p {
+        font-size: 2vw;
+    }
+
+    #logoDII {
+        width: 7%;
+        margin-bottom: -5px;
     }
 
 }
