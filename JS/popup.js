@@ -2,7 +2,7 @@ let modalBtns = [...document.querySelectorAll(".button")];
 modalBtns.forEach(function (btn) {
   btn.onclick = function () {
     let modal = btn.getAttribute("data-modal");
-    document.querySelector(".modal").style.display = "block";
+    document.getElementById(modal).style.display = "flex";
   };
 });
 let closeBtns = [...document.querySelectorAll(".close")];
