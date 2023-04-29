@@ -303,13 +303,14 @@ hr {
 #contact {
     margin-top: 20px;
     color: grey;
-    font-size: 3vw;
+    font-size: 4vw;
     display: flex;
     flex-direction: row;
 }
 
 #contact>div>p {
     margin-bottom: 10px;
+    margin-left: 15px;
 }
 
 #contact>div>p>a {
@@ -326,12 +327,12 @@ hr {
 }
 
 #icons>i {
-    margin: 6px;
-    font-size: 3vw;
+    margin: 7px;
+    font-size: 5vw;
 }
 
 .contacticons {
-    margin: 4px;
+    margin: 8px;
     width: 15px;
     opacity: 50%;
 }
@@ -946,6 +947,14 @@ label.button:hover {
         justify-content: space-around;
     }
 
+    #contact {
+        font-size: 3vw;
+    }
+
+    #icons>i {
+        font-size: 3vw;
+    }
+
     @keyframes slidingnav {
         from {
             transform: translate(-1000px);
@@ -1086,7 +1095,7 @@ label.button:hover {
         height: 1px !important;
     }
 
-    #contact>div>p {
+    #contact {
         font-size: 2vw;
     }
 
@@ -1124,8 +1133,8 @@ label.button:hover {
     }
 
     #icons>i {
-        font-size: 2.2vw;
-        margin: 6px;
+        font-size: 2vw;
+        margin: 8px;
     }
 
     .carousel-item {
