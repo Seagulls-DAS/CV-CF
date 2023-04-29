@@ -15,7 +15,7 @@ header {
     align-items: center;
     overflow: hidden;
     background-size: cover;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.541), rgba(255, 255, 255, 0.541)), url("../img/nuages.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.541), rgba(255, 255, 255, 0.541)), url("../img/nuages.webp");
 }
 
 /* nav bar from here */
@@ -182,7 +182,7 @@ nav>.test {
 }
 
 #MyMug {
-    background-image: linear-gradient(rgba(180, 246, 255, 0.137), rgba(180, 246, 255, 0.137)), url("../img/melight.PNG");
+    background-image: linear-gradient(rgba(180, 246, 255, 0.137), rgba(180, 246, 255, 0.137)), url("../img/melight.webp");
     background-size: cover;
     width: 150px;
     height: 150px;
@@ -774,7 +774,7 @@ carousel-con .carousel-indicators li {
 
 .dark-mode-bg {
     transition: transform 1s;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.548), rgba(0, 0, 0, 0.548)), url("../img/blood.png"), url("../img/metal.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.548), rgba(0, 0, 0, 0.548)), url("../img/blood.webp"), url("../img/metal.webp");
 }
 
 .dark-mode-bg>#dmbutton {
@@ -788,7 +788,7 @@ carousel-con .carousel-indicators li {
 }
 
 .dark-mode-bg>.container-1>#Who>#MyMug-txt>#MyMug {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.137), rgba(0, 0, 0, 0.137)), url("../img/medark.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.137), rgba(0, 0, 0, 0.137)), url("../img/medark.webp");
     background-size: cover;
 }
 
