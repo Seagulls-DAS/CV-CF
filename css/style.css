@@ -1026,7 +1026,7 @@ label.button:hover {
 
     footer>p {
         font-size: 3vw;
-        margin-bottom: -50px;
+        margin-bottom: 0px;
     }
 
 }
@@ -1197,11 +1197,12 @@ label.button:hover {
     }
 
     footer>p {
-        font-size: 2vw;
+        font-size: 1.5vw;
+        margin-bottom: -50px;
     }
 
     #logoDII {
-        width: 7%;
+        width: 20%;
         margin-bottom: -5px;
     }
 }
