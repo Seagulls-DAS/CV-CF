@@ -66,21 +66,6 @@ nav>.test {
     box-shadow: 15px 10px 10px rgba(0, 0, 0, 0.11);
 }
 
-nav>.test>img {
-    width: 75%;
-}
-
-nav>.test>a {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 2px;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    width: 50%;
-}
-
 .check:hover {
     font-style: bold;
     color: rgb(255, 255, 255) !important;
@@ -1055,14 +1040,28 @@ label.button:hover {
         }
 
         to {
-            transform: translate(-1230px);
+            transform: translate(-1000px);
             animation-timing-function: ease-in-out
         }
     }
 
+    .test {
+        margin-top: -20px !important;
+        display: flex;
+        flex-direction: row !important;
+        height: 100px !important;
+        width: 1000px !important;
+    }
+
+    .test>hr {
+        visibility: hidden;
+    }
+
+
+
     #MyMug {
-        width: 200px;
-        height: 200px
+        width: 300px;
+        height: 300px;
     }
 
     h1 {
@@ -1089,8 +1088,8 @@ label.button:hover {
 
 
     .bubble {
-        bottom: 5%;
-        right: 33%;
+        bottom: 50%;
+        right: 70%;
         transform: none;
     }
 
@@ -1105,7 +1104,7 @@ label.button:hover {
         width: 400px;
         height: 100px;
         transform: none;
-        font-size: 1.5vw;
+        font-size: 1vw;
     }
 
     .bubble-text::after {
@@ -1115,9 +1114,9 @@ label.button:hover {
         text-align: center;
         vertical-align: middle;
         position: absolute;
-        margin-left: -460px;
-        margin-top: -80px;
-        transform: rotate(90deg)
+        margin-left: 0px;
+        margin-top: 143px;
+        transform: rotate(0deg)
     }
 
     #icons>i {
@@ -1182,6 +1181,10 @@ label.button:hover {
         width: 60%;
     }
 
+    .passionsicon {
+        width: 80px;
+    }
+
     #modalFour>.modal-content>.contact-form>form>img {
         width: 40% !important;
     }
@@ -1198,5 +1201,4 @@ label.button:hover {
         width: 7%;
         margin-bottom: -5px;
     }
-
 }
