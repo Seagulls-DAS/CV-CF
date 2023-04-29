@@ -840,6 +840,7 @@ footer>p {
 
 #logoDII {
     width: 15%;
+    height:auto;
     margin-bottom: 0;
 }
 
@@ -1203,6 +1204,7 @@ label.button:hover {
 
     #logoDII {
         width: 20%;
+        height: auto;
         margin-bottom: -5px;
     }
 }
