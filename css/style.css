@@ -235,7 +235,7 @@ nav>.test {
 .bubble {
     transform: rotate(90deg);
     position: absolute;
-    right: -20px;
+    right: -50px;
     box-shadow: 15px -10px 10px rgba(0, 0, 0, 0.11);
 }
 
@@ -243,9 +243,10 @@ nav>.test {
     background: rgba(128, 128, 128, 0.397);
     color: #ffffff;
     padding: 7px 15px;
-    border-radius: 3px;
-    width: 90px;
-    font-size: 2.5vw;
+    border-radius: 5px;
+    width: 150px;
+    height: 100px;
+    font-size: 3vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -264,7 +265,7 @@ nav>.test {
     border-top: 30px solid rgba(128, 128, 128, 0.397);
     position: absolute;
     margin-left: 70px;
-    margin-top: 140px;
+    margin-top: 144px;
 }
 
 h1 {
@@ -835,13 +836,13 @@ footer {
 }
 
 footer>p {
-    margin-bottom: -20px;
+    margin-bottom: -15px;
     text-shadow: grey 2px 2px;
 }
 
 #logoDII {
     width: 15%;
-    height:auto;
+    height:50%;
     margin-bottom: 0;
 }
 
