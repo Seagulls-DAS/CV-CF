@@ -12,7 +12,7 @@
 
 body {
     overflow: hidden;
-   
+
 }
 
 header {
@@ -283,6 +283,7 @@ h1 {
     font-family: 'Comfortaa', sans-serif;
     font-style: bold;
     font-size: 7vw;
+    font-display: fallback;    
 }
 
 h2 {
@@ -293,6 +294,7 @@ h2 {
     color: grey;
     font-family: 'Comfortaa', sans-serif;
     font-style: bold;
+    font-display: fallback;
 }
 
 h3 {
@@ -301,6 +303,7 @@ h3 {
     font-size: 2.5vw;
     color: grey;
     font-family: 'Nunito', sans-serif;
+    font-display: fallback;
 }
 
 hr {
@@ -323,6 +326,7 @@ hr {
     display: flex;
     flex-direction: row;
     font-family: 'Nunito', sans-serif;
+    font-display: fallback;    
 }
 
 #contact>div>p {
@@ -785,6 +789,7 @@ carousel-con .carousel-indicators li {
     border-radius: 10px;
     font-size: 2vw;
     font-family: 'Nunito', sans-serif;
+    font-display: fallback;
 }
 
 .diplome>p {
@@ -859,7 +864,7 @@ footer>p {
 
 #logoDII {
     width: 15%;
-    height:50%;
+    height: 50%;
     margin-bottom: 0;
 }
 
