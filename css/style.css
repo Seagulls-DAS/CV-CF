@@ -1220,8 +1220,16 @@ label.button:hover {
     .passionsicon {
         width: 80px;
     }
+    
+    #modalThree>.modal-content>.contact-form>form>img {
+        width: 40% !important;
+    }
 
     #modalFour>.modal-content>.contact-form>form>img {
+        width: 40% !important;
+    }
+
+    #modalSix>.modal-content>.contact-form>form>img {
         width: 40% !important;
     }
 
