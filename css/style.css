@@ -259,6 +259,7 @@ nav>.test {
     align-items: center;
     font-family: 'Nunito', sans-serif;
     font-style: italic;
+    font-display: fallback;
 }
 
 .bubble-text>p {
