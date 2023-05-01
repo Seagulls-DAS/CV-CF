@@ -3,6 +3,13 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('../img/Comfortaa-VariableFont_wght.ttf') format('truetype'), url('../img/Comfortaa-Bold.ttf') format('truetype');
+    font-family: 'Nunito';
+    src: url('../img/Nunito-VariableFont_wght.ttf') format('truetype'), url('../img/Nunito-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
 body {
     overflow: hidden;
    
@@ -273,8 +280,9 @@ nav>.test {
 h1 {
     color: rgb(128, 128, 128);
     text-align: center;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Comfortaa', sans-serif;
     font-style: bold;
+    font-size: 7vw;
 }
 
 h2 {
@@ -283,7 +291,7 @@ h2 {
     text-align: center;
     font-size: 5vw;
     color: grey;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Comfortaa', sans-serif;
     font-style: bold;
 }
 
@@ -776,6 +784,7 @@ carousel-con .carousel-indicators li {
     text-align: center;
     border-radius: 10px;
     font-size: 2vw;
+    font-family: 'Nunito', sans-serif;
 }
 
 .diplome>p {
