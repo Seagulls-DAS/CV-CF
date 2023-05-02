@@ -549,10 +549,16 @@ li {
     font-size: 2vw;
     font-family: 'Nunito', sans-serif;
     font-display: fallback;
+    color: black;
 }
 
 .diplome>p {
     margin: 0px;
+}
+
+.date {
+    font-style: italic;
+    font-size: 2vw;
 }
 
 .dark-mode-bg {
@@ -784,6 +790,10 @@ label.button:hover {
     #formation {
         width: 400px;
         height: 400px;
+    }
+
+    .date {
+        font-size: 1vw;
     }
 
     h3 {
