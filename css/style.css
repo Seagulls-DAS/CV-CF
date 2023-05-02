@@ -847,6 +847,7 @@ label.button:hover {
 
     .container-1 {
         flex-direction: row;
+        height: 80%;
     }
 
     @keyframes slidingnav {
@@ -988,13 +989,13 @@ label.button:hover {
     }
 
     footer>p {
-        font-size: 1.5vw;
+        font-size: 1vw;
         margin-bottom: -50px;
     }
 
     #logoDII {
         width: 20%;
         height: auto;
-        margin-bottom: -5px;
+        margin-bottom: -10%;
     }
 }
