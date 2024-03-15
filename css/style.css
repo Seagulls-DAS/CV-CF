@@ -507,7 +507,7 @@ li {
 }
 
 .skillzicon:hover {
-    transform: scale(2);
+    transform: scale(1.5);
     transition: 0.5s;
 }
 
@@ -971,7 +971,7 @@ label.button:hover {
     }
 
     .skillzicon {
-        width: 50px !important;
+        width: 35px !important;
     }
 
     .passionsimg {
