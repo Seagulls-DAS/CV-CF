@@ -7,18 +7,3 @@ services:
       - "8001:80"
     volumes:
       - ./app:/var/www/html
-
-  nginx:
-    image: jc21/nginx-proxy-manager:latest
-    container_name: nginx-proxy-manager
-    ports:
-      - "80:80" # ne pas modifier
-      - "81:81"
-      - "443:443" # ne pas modifier
-    restart: unless-stopped
-    environment:
-      TZ: Europe/Paris
-    volumes:
-      - /home/nginx-proxy-manager/data:/config:rw
-      - /letsencrypt:/etc/letsencrypt
-      - ./app:/usr/share/nginx/html
