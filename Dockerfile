@@ -1,11 +1,8 @@
-# Utilise une image Nginx pour servir les fichiers statiques
-FROM nginx:latest
+# Utiliser une image officielle Apache
+FROM httpd:alpine
 
-# Copie tous les fichiers et dossiers du répertoire public dans le répertoire où Nginx cherche les fichiers
-COPY ./public /usr/share/nginx/html
+# Copier les fichiers HTML dans le répertoire par défaut de Apache
+COPY ./app /usr/local/apache2/htdocs/
 
-# Expose le port 80 pour accéder à l'application
+# Exposer le port 80 pour le trafic HTTP
 EXPOSE 80
-
-# Commande par défaut pour démarrer Nginx
-CMD ["nginx", "-g", "daemon off;"]
